@@ -1,6 +1,6 @@
 ---
 - name: Weather forecast
-  hosts: localhost
+  hosts: all
   gather_facts: false
   tasks:
     - name: Ensure the airport code has been defined
